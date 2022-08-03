@@ -1,0 +1,555 @@
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/skywater/Desktop/exercises-main/.git/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main (master)
+$ git config --global user.name
+halilgoksu
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main (master)
+$ git config --global user.email
+halilskywater@gmail.com
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main (master)
+$ pwd
+/c/Users/skywater/Desktop/exercises-main
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main (master)
+$ git add exercises-main
+fatal: pathspec 'exercises-main' did not match any files
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main (master)
+$ ls
+week1/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main (master)
+$ cd week1
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1 (master)
+$ cd unix_exercise
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise (master)
+$ cd house
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house (master)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house (master)
+$ cd basement
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/basement (master)
+$ cd laudry-room
+bash: cd: laudry-room: No such file or directory
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/basement (master)
+$ ls
+laundry-room/  storage/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/basement (master)
+$ cd laundry-room
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/basement/laundry-room (master)
+$ rm trash1
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/basement/laundry-room (master)
+$ rm trash2
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/basement/laundry-room (master)
+$ ls
+clothes  dryer  drying-rack  soap  treasure1  washer
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/basement/laundry-room (master)
+$ mv treasure1 ../../../chest
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/basement/laundry-room (master)
+$ ls
+clothes  dryer  drying-rack  soap  washer
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/basement/laundry-room (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/basement (master)
+$ ls
+laundry-room/  storage/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/basement (master)
+$ cd storeage
+bash: cd: storeage: No such file or directory
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/basement (master)
+$ cd storage
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/basement/storage (master)
+$ ls
+bicycle  trash3  treasure2
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/basement/storage (master)
+$ rm trash3
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/basement/storage (master)
+$ ls
+bicycle  treasure2
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/basement/storage (master)
+$ mv treasure2 ../../../chest
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/basement/storage (master)
+$ ls
+bicycle
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/basement/storage (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/basement (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house (master)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house (master)
+$ cd floor0
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0 (master)
+$ ls
+bathroom/  house  kitchen/  living-room/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0 (master)
+$ cd batroom
+bash: cd: batroom: No such file or directory
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0 (master)
+$ cd bathroom
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/bathroom (master)
+$ ls
+cabinet/  mat  mirror
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/bathroom (master)
+$ cd cabinet
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/bathroom/cabinet (master)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste  trasure
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/bathroom/cabinet (master)
+$ mv trasure ../../../chest
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/bathroom/cabinet (master)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/bathroom/cabinet (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/bathroom (master)
+$ ls
+cabinet/  mat  mirror
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/bathroom (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0 (master)
+$ ls
+bathroom/  house  kitchen/  living-room/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0 (master)
+$ cd kitchen
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen (master)
+$ ls
+fridge/  oven/  pantry/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen (master)
+$ cd fridge
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen/fridge (master)
+$ ls
+bread  carrots  chicken  eggs  juice  milk  soda  trash4  trash5  trasure4
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen/fridge (master)
+$ rm trash4
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen/fridge (master)
+$ rm trash5
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen/fridge (master)
+$ mv treasure4 ../../../chest
+mv: cannot stat 'treasure4': No such file or directory
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen/fridge (master)
+$ mv treasure4 ../../chest
+mv: cannot stat 'treasure4': No such file or directory
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen/fridge (master)
+$ mv trasure4 ../../../chest
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen/fridge (master)
+$ ls
+bread  carrots  chicken  eggs  juice  milk  soda
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen/fridge (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen (master)
+$ ls
+fridge/  oven/  pantry/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen (master)
+$ cd oven
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen/oven (master)
+$ ls
+chicken-roast
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen/oven (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen (master)
+$ cd pantry
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen/pantry (master)
+$ ls
+cereal  chips  cookies  crackers  trash6
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen/pantry (master)
+$ rm trash6
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen/pantry (master)
+$ ls
+cereal  chips  cookies  crackers
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen/pantry (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen (master)
+$ cd living-room
+bash: cd: living-room: No such file or directory
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen (master)
+$ ls
+fridge/  oven/  pantry/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/kitchen (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0 (master)
+$ ls
+bathroom/  house  kitchen/  living-room/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0 (master)
+$ cd living-room
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/living-room (master)
+$ ls
+TV  bookshelf/  chair  couch  table
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/living-room (master)
+$ cd bookshelf
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/living-room/bookshelf (master)
+$ ls
+animal-farm  harry-potter  it  lord-of-the-rings  trash7  trasure5
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/living-room/bookshelf (master)
+$ rm trash7
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/living-room/bookshelf (master)
+$ mv trasure5 ../../../chest
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/living-room/bookshelf (master)
+$ ls
+animal-farm  harry-potter  it  lord-of-the-rings
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/living-room/bookshelf (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0/living-room (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0 (master)
+$ cd floor1
+bash: cd: floor1: No such file or directory
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0 (master)
+$ ls
+bathroom/  house  kitchen/  living-room/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor0 (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house (master)
+$ ls
+basement/  chest  floor0/  floor1/  floor2/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house (master)
+$ cd floor1
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1 (master)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1 (master)
+$ cd balcony
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/balcony (master)
+$ ls
+chair  plant  trash10  trash11
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/balcony (master)
+$ rm trash10
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/balcony (master)
+$ rm trash10
+rm: cannot remove 'trash10': No such file or directory
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/balcony (master)
+$ rm trash11
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/balcony (master)
+$ ls
+chair  plant
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/balcony (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1 (master)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1 (master)
+$ cd bathroom
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bathroom (master)
+$ ls
+sink  toilet  tub
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bathroom (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1 (master)
+$ cd bedroom1
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1 (master)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1 (master)
+$ cd closet
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1/closet (master)
+$ ls
+board-game  toy  trash8  trash9
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1/closet (master)
+$ rm trash8
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1/closet (master)
+$ rm trash9
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1/closet (master)
+$ ls
+board-game  toy
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1/closet (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1 (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1 (master)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1 (master)
+$ cd bedroom1
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1 (master)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1 (master)
+$ cd closet
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1/closet (master)
+$ ls
+board-game  toy
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1/closet (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1 (master)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1 (master)
+$ cd dresser
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1/dresser (master)
+$ ls
+pants  shirt  socks
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1/dresser (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1 (master)
+$ cd toy-chest
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1/toy-chest (master)
+$ ls
+car  cow  dinosaur  space-ship  trasure6  truck
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1/toy-chest (master)
+$ rm trasure6
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1/toy-chest (master)
+$ ls
+car  cow  dinosaur  space-ship  truck
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1/toy-chest (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom1 (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1 (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house (master)
+$ ls
+basement/  chest  floor0/  floor1/  floor2/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house (master)
+$ cd floor1
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1 (master)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1 (master)
+$ cd bedroom2
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom2 (master)
+$ ls
+bed  closet/  desk  mirror
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom2 (master)
+$ cd closet
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom2/closet (master)
+$ ls
+suit  tie  treasure7
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom2/closet (master)
+$ mv treasure7 ../../../chest
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom2/closet (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1/bedroom2 (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor1 (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house (master)
+$ ls
+basement/  chest  floor0/  floor1/  floor2/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house (master)
+$ cd floor2
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2 (master)
+$ ls
+storage/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2 (master)
+$ cd storage
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage (master)
+$ ls
+box1/  box2/  box3/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage (master)
+$ cd box1
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage/box1 (master)
+$ ls
+trash12  trash13  trash14
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage/box1 (master)
+$ rm trash12
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage/box1 (master)
+$ rm trash13
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage/box1 (master)
+$ rm trash14
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage/box1 (master)
+$ ls
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage/box1 (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage (master)
+$ ls
+box1/  box2/  box3/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage (master)
+$ cd box2
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage/box2 (master)
+$ ls
+halloween-decoration  holiday-decoration  ice-skates  sweaters  treasure8
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage/box2 (master)
+$ mv treasure8 ../../chest
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage/box2 (master)
+$ ls
+halloween-decoration  holiday-decoration  ice-skates  sweaters
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage/box2 (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage (master)
+$ ls
+box1/  box2/  box3/
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage (master)
+$ cd box3
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage/box3 (master)
+$ ls
+posters  trash15  treasure9
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage/box3 (master)
+$ rm trash15
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage/box3 (master)
+$ mv treasure9 ../../chest
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage/box3 (master)
+$ ls
+posters
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage/box3 (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2/storage (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house/floor2 (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise/house (master)
+$ cd ..
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise (master)
+$ find . -name trash*
+
+halilskywater@skywater MINGW64 ~/Desktop/exercises-main/week1/unix_exercise (master)
+$
